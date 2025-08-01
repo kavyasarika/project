@@ -1,0 +1,33 @@
+C:\Users\skavy>echo "# project" >> README.md
+
+C:\Users\skavy>git init
+Reinitialized existing Git repository in C:/Users/skavy/.git/
+
+C:\Users\skavy>git add README.md
+
+C:\Users\skavy>git commit -m "first commit"
+[main 6642cb7] first commit
+ 1 file changed, 1 insertion(+)
+
+C:\Users\skavy>git branch -M main
+
+C:\Users\skavy>git remote add origin https://github.com/kavyasarika/project.git
+error: remote origin already exists.
+
+C:\Users\skavy>git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 255 bytes | 255.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/kavyasarika/project.git
+   5848779..6642cb7  main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\skavy>git remote add origin https://github.com/kavyasarika/project.git
+error: remote origin already exists.
+
+C:\Users\skavy>git branch -M main
+
+C:\Users\skavy>git push -u origin main
+branch 'main' set up to track 'origin/main'.
+Everything up-to-date
